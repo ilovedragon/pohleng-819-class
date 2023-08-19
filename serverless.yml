@@ -17,7 +17,7 @@ functions:
           method: get
     environment:
       ACCESS_LOCAL_KEY: '34234' 
-      ACCESS_KEY: ${ssm:ACCESS_KEY}     
+      ACCESS_KEY: ${ssm:pohleng-parameter}     
 
 plugins:
   - serverless-offline
