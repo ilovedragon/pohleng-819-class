@@ -5,7 +5,7 @@ module.exports.handler = async (event) => {
         {
           message: "Your function executed successfully!",
           access_local_key: process.env.access_local_key,
-          access_key: process.env.pohleng-parameter
+          access_key: process.env.ACCESS_KEY
         },
         null,
         2
