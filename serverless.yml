@@ -1,0 +1,22 @@
+service: pohleng-819-classproject
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: ap-southeast-1
+  deploymentBucket:
+    name: cohort2.serverless.deploys
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - httpApi:
+          path: /
+          method: get
+
+plugins:
+  - serverless-offline
+
+

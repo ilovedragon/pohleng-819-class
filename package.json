@@ -1,0 +1,25 @@
+{
+  "name": "pohleng-819-class",
+  "version": "1.0.0",
+  "description": "This is a Saturday coaching class project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilovedragon/pohleng-819-class.git"
+  },
+  "author": "Poh Leng NG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilovedragon/pohleng-819-class/issues"
+  },
+  "homepage": "https://github.com/ilovedragon/pohleng-819-class#readme",
+  "dependencies": {
+    "serverless": "^3.34.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^12.0.4"
+  }
+}
