@@ -15,6 +15,9 @@ functions:
       - httpApi:
           path: /
           method: get
+    environment:
+      ACCESS_LOCAL_KEY: '34234' 
+      ACCESS_KEY: ${ssm:ACCESS_KEY}     
 
 plugins:
   - serverless-offline
